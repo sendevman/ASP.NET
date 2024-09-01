@@ -257,7 +257,7 @@ public MyModel SanitizeHtml(MyModel myModel)
 }
 ```
 
-> More examples can be found in the [ASP.NET Core Demo](https://github.com/aspnetboilerplate/aspnetboilerplate/blob/dev/test/aspnet-core-demo/AbpAspNetCoreDemo/Controllers/SanitizerTestController.cs):
+> More examples can be found in the [ASP.NET Core Demo](https://github.com/sendevman/ASP.NET/blob/dev/test/aspnet-core-demo/AbpAspNetCoreDemo/Controllers/SanitizerTestController.cs):
 
 ### Model Binders
 

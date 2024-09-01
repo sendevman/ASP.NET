@@ -709,7 +709,7 @@ namespace Abp.Authorization.Users
 
         public async Task<string> GetUserNameFromDatabaseAsync(long userId)
         {
-            //note: This workaround will not be needed after fixing https://github.com/aspnetboilerplate/aspnetboilerplate/issues/1828
+            //note: This workaround will not be needed after fixing https://github.com/sendevman/ASP.NET/issues/1828
             var outerUow = _unitOfWorkManager.Current;
             using (var uow = _unitOfWorkManager.Begin(new UnitOfWorkOptions
             {
